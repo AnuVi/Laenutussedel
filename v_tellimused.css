@@ -1,0 +1,22 @@
+body{
+margin: 0,auto;
+
+}
+table{
+overflow:hidden;
+width:100%;
+border:1px solid #eee;
+border-collapse:collapse;
+text-align:center;
+}
+
+
+th, td {
+overflow:hidden;
+border:1px solid #eee;
+}
+
+.laiem{
+ overflow:hidden;
+ text-align:left;
+}

@@ -1,0 +1,39 @@
+
+
+body{
+font-size:12px; 
+font-family:Arial, Verdana; 
+
+}
+
+a, button{
+display:none;
+
+}
+ul {
+list-style:none;
+}
+#print_margin{
+margin-top:60px;}
+li{
+height:435px;
+float:left;
+overflow:hidden;
+}
+li.hidden{
+visibility:visible;
+overflow:hidden;
+margin-left:15px;
+height:435px;
+}
+
+.hidden_small{
+height:5px;
+visibility:hidden;
+
+}
+.bold{
+font-weight:bold;
+font-size:13px;
+}
+

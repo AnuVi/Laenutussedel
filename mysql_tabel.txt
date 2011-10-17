@@ -1,0 +1,15 @@
+CREATE TABLE Sedeltellimus (
+       ID mediumint unsigned not null auto_increment,
+       Kviit varchar(20) not null,
+       Autor varchar(40),
+	Pkiri text not null,
+	Ilmaasta char (4),
+	Seeria varchar(15),
+	Koide varchar (15),
+	Vihik varchar(15),
+       Perenimi varchar(40) not null,
+       Lkaart char(11) not null,
+       Aeg current_timestamp not null,
+	Toodeldud tinyint(1), not null,
+       PRIMARY KEY(ID)
+       ); 

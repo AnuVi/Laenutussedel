@@ -1,0 +1,27 @@
+body{
+width:100%
+}
+ul {
+list-style:none;
+}
+li{
+width:45%;
+float:left;
+/*border: 1px solid #eee;*/
+overflow:hidden;
+}
+.hidden{
+width:45%;
+visibility:hidden;
+}
+.hidden_small{
+visibility:hidden;
+}
+.bold{
+font-weight:bold;
+}
+#print{
+margin-top:10px;}
+a{
+float:left;
+}
