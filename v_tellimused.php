@@ -40,7 +40,7 @@ mysql_select_db('test');
   else{
   $output = '<p>Tellimusi pole</p>';
   }
-//kustuab vanemad kui 50-päevased tellimused, mis printitud
+//kustutab vanemad kui 50-päevased tellimused, mis printitud
 $query2= 'DELETE FROM Sedeltellimus WHERE  Aeg <= CURDATE() - INTERVAL 50 DAY AND Toodeldud=1';
 $result2= mysql_query($query2, $conn);
 
@@ -59,11 +59,6 @@ $result2= mysql_query($query2, $conn);
 <meta name="description" content="sedelkataloogi laenutussedel, room call slip," />
 <title>Sedelkataloogist viimase kuu tellimused</title>
 <link rel="stylesheet" type="text/css" href="v_tellimused.css">
-
-
-
-
-</style>
 </head>
 <body> 
 	 <?=$output?>
